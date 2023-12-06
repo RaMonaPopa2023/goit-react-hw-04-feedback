@@ -1,0 +1,41 @@
+.FeedbackWidget {
+  font-family: Arial, sans-serif;
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 20px;
+  width: 300px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  left: 50%;
+  transform: translate(-50%, 10%);
+}
+
+.FeedbackWidget h2 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.FeedbackWidget button {
+  margin: 5px;
+  padding: 5px 10px;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.FeedbackWidget button:hover {
+  background-color: #0056b3;
+}
+
+.FeedbackWidget h3 {
+  font-size: 1.1em;
+  margin-top: 20px;
+}
+
+.FeedbackWidget p {
+  margin: 5px 0;
+}
